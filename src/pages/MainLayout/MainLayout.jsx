@@ -30,7 +30,7 @@ const MainLayout = (props) => {
       <Container maxWidth="md" sx={{ p: "64px" }}>
         <Grid container spacing={3}>
           {dataCard.map(() => (
-            <Grid item xs={12} md={6} lg={4}>
+            <Grid item xs={12} sm={6} lg={4}>
               <Cards classes={classes} />
             </Grid>
           ))}
